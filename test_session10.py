@@ -39,7 +39,7 @@ def test_8():
 
 def test_9():
     polygon1 = polygon(n =5 , r =10) # the initializer takes in  
-    polygon2 = polygon(n =4 , r =10)
+    polygon2 = polygon(n =5 , r =10)
     assert polygon1 == polygon2 , " __eq__ is not working !!"
 
 def test_10():
@@ -49,4 +49,4 @@ def test_10():
 
 def test_11():
     poly_seq = polygons_sequence(n = 25 , r =100)
-    assert polygon1 == polygon2 , " __eq__ is not working !!"
+    assert len(poly_seq) == 23 , " __len__ is not working !!"
